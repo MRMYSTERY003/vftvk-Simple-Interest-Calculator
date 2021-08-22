@@ -10,7 +10,7 @@ function compute()
         alert("enter a positive number");
         return 0;
     }
-    document.getElementById("result").innerHTML = "If you deposit: "+principal+"<br>At an interest rate of :"+rate+"<br>You will receive an amount of :"+interest+",<br>In the year :"+year+"<br>";
+    document.getElementById("result").innerHTML = "If you deposit: <mark>"+principal+"</mark><br>At an interest rate of :<mark>"+rate+"</mark><br>You will receive an amount of :<mark>"+interest+"</mark>,<br>In the year :<mark>"+year+"</mark><br>";
     
 }
 
